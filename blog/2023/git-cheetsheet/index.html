@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Git CheetSheet | Zichao Yang</title>
+    <title>Git and Github Stuffs | Zichao Yang</title>
     <meta name="author" content="Zichao  Yang">
-    <meta name="description" content="an example of a blog post with some code">
+    <meta name="description" content="It is just some random stuff">
     <meta name="keywords" content="physics, science, java, coding">
 
 
@@ -109,26 +109,83 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Git CheetSheet</h1>
+    <h1 class="post-title">Git and Github Stuffs</h1>
     <p class="post-meta">April 5, 2023</p>
     <p class="post-tags">
       <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
         ·  
-        <a href="/blog/tag/formatting">
-          <i class="fas fa-hashtag fa-sm"></i> formatting</a>  
-          <a href="/blog/tag/code">
-          <i class="fas fa-hashtag fa-sm"></i> code</a>  
+        <a href="/blog/tag/git">
+          <i class="fas fa-hashtag fa-sm"></i> git</a>  
+          <a href="/blog/tag/version-control">
+          <i class="fas fa-hashtag fa-sm"></i> version-control</a>  
           
         ·  
-        <a href="/blog/category/sample-posts">
-          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
+        <a href="/blog/category/tech">
+          <i class="fas fa-tag fa-sm"></i> tech</a>  
           
 
     </p>
   </header>
 
   <article class="post-content">
-    <p>nothing?</p>
+    <p>这一篇我简单粘贴一些 Git 和 Github 的 基础操作。
+由于信息都可以通过网上检索到。因此部分写成 SOP 的形式。</p>
+
+<h1 id="installation">Installation</h1>
+
+<p>I use mac so I use homebrew.</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>brew <span class="nb">install </span>git
+</code></pre></div></div>
+
+<h1 id="git">Git</h1>
+
+<p>虽然很难想象不使用 Github 的 Git，但是还是放一些到这里。我现在没时间写这些。</p>
+
+<ul>
+  <li>version check:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">git --version</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="github-cli-command-line-interface">GitHub CLI (Command-line interface)</h1>
+
+<p>和 GitHub 交互, 我们可以选择打开网页 github desktop 或者 github CLI。使用 CLI 不解释。</p>
+
+<h2 id="cli-安装">CLI 安装</h2>
+
+<ul>
+  <li>install
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">brew install gh</code></li>
+    </ul>
+  </li>
+  <li>upgrade
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">brew upgrade gh</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="github">Github</h1>
+
+<h1 id="sop-set-up-git-username-and-email-for-a-new-repomac">SOP: Set up git username and email for a new repo/mac</h1>
+
+<ol>
+  <li>install homebrew</li>
+  <li>install git, gh</li>
+  <li>setup global username and email with:
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code> $ git config --global user.name "YOUR_NAME"
+ $ git config --global user.email "YOUR_EMAIL"
+</code></pre></div>    </div>
+  </li>
+  <li>Authentication with gh: <code class="language-plaintext highlighter-rouge">$ gh auth login</code> and follow instruction.</li>
+  <li>
+<strong>更换用户</strong> repeat 3 - 4.</li>
+</ol>
 
   </article>
 </div>
