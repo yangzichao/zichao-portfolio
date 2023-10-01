@@ -115,14 +115,14 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Zichao random stuffs # blog_name will be displayed in your blog page
-blog_nav_title: articles # your blog must have a title for it to be displayed in the nav bar
-blog_description: A bunch of grammar mistakes
-permalink: /blog/:year/:title/
+# blog_name: Zichao random stuffs # blog_name will be displayed in your blog page
+# blog_nav_title: articles # your blog must have a title for it to be displayed in the nav bar
+# blog_description: 
+# permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
   enabled: false
@@ -163,7 +163,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
     output: true
